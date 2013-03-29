@@ -1,0 +1,32 @@
+Steps to work:
+1. set up config
+2. make a directory to work on
+3. go into it
+4. if a proxy exists write the setting for it
+5. clone from GitHub
+6. after cloning is done, go into the new directory created
+7. create a branch
+8. use the branch
+9. leave the cmd and work on the file min bara
+10. Go back to cmd and add the file
+11. commit it with the msg
+12. push back to origin
+13. Done
+
+To clone:
+	git clone URL
+To Get updates:
+	git pull URL
+To make a branch to start working with files:
+	git branch (BranchName)	
+To Add a file (staging area):
+	1. (add the files to commit) git add filename.filetype
+	2. (add the message to commit) git commit -m "Message"
+To view status of changes:
+	git status
+To view history:
+	git log
+To use branch:
+	git checkout (BranchName)
+To push back:
+	git push -u origin (BranchName)
